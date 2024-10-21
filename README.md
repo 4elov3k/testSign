@@ -1,4 +1,4 @@
-# testSign
+
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -11,7 +11,8 @@ This template should help get you started developing with Vue 3 in Vite.
 See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
-
+### Create .env file
+VITE_API_ENDPOINT="Your local"
 ```sh
 npm install
 ```
@@ -27,5 +28,9 @@ npm run dev
 ```sh
 npm run build
 ```
-# testMail
-# testSign
+### Init API 
+To avoid CORS ERR 
+change your app.use:
+![image](https://github.com/user-attachments/assets/b520ba95-4f0c-426f-b30a-7327cbbeeb7a)
+
+
